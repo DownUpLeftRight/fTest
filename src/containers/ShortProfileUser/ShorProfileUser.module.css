@@ -1,0 +1,42 @@
+.shortProfileUser {
+  background-color: #E9E9E9;
+  height: 24em;
+  width: 20%;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border: 1em solid transparent;
+  border-left-color: #E9E9E9;
+  border-right: 0;
+  margin-left: 0.9em;
+  margin-top: 2em;
+
+}
+
+.profileAvatar {
+  text-align: center;
+  display: flex;
+
+}
+
+.profileAvatar img {
+  min-width: 49%;
+  max-width: 70%;
+  margin: 0.7em;
+  margin-left: 2.5em;
+}
+
+.nicknameUser {
+  font-size: 20px;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.statisticsUser {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6em;
+  font-size: 10px;
+}
